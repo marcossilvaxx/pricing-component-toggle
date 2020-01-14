@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(233, 13%, 49%);
+    background: url("../images/bg-bottom.svg") bottom left no-repeat, url("../images/bg-top.svg") top right no-repeat hsl(240, 78%, 98%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.01em;
+}
+
+header > h2{
+    margin-top: 30px;
+}
+
+.switch-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.switch-container span{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 0.75em;
+    color: hsl(234, 14%, 74%);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-price{
+    background-color: #fff;
+    box-shadow: -5px 2px 30px rgba(0, 0, 0, 0.145);
+    padding: 25px;
+    text-align: center;
+    width: 250px;
+    border-radius: 7px;
+}
+
+.card-price > p{
+    margin: 12px 0;
+    font-size: 0.75em;
+}
+
+.cd-primary{
+    padding: 40px 25px;
+    background: linear-gradient(to right bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: #fff;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.145);
+}
+
+.cd-primary > .price{
+    color: #fff;
+}
+
+.cd-primary > hr{
+    background-color: hsl(234, 14%, 74%);
+}
+
+.cd-primary + .card-price{
+    box-shadow: 5px 2px 30px rgba(0, 0, 0, 0.145);
+}
+
+hr{
+    border: none;
+    background-color: #e6e6e6;
+    height: 1px;
+}
+
+.price{
+    font-size: 3.5em !important;
+    color: hsl(232, 13%, 33%);
+    letter-spacing: -2px;
+}
+
+.price::before{
+    content: '\0024';
+    font-size: 0.55em;
+    letter-spacing: 7px;
+    vertical-align: middle;
+}
+
+.btn{
+    margin-top: 22px;
+    text-decoration: none;
+    color: hsl(240, 78%, 98%);
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    padding: 10px 0px;
+    width: 206px;
+    display: inline-block;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+    border: solid 1px hsl(236, 72%, 79%);
+}
+
+.btn:hover{
+    background: none;
+    color: hsl(237, 63%, 64%);
+}
+
+.btn-light{
+    background: #fff;
+    color: hsl(237, 63%, 64%);
+    border-color: #fff;
+}
+
+.btn-light:hover{
+    color: #fff;
+}
+
+.hide{
+    display: none;
+}
+
+/*==========================*/
+
+.switch {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.switch + label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    transition: all linear 0.1s;
+}
+
+.switch--shadow + label{
+    padding: 4px;
+    width: 50px;
+    height: 28px;
+    background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    border-radius: 60px;
+}
+
+label:hover{
+    opacity: 50%;
+    transition: all linear 0.1s;
+}
+
+.switch--shadow + label::before,
+.switch--shadow + label::after{
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    content: "";
+}
+
+.switch--shadow + label::before {
+    right: 4px;
+    border-radius: 60px;
+}
+
+.switch--shadow + label::after {
+    width: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.switch--shadow:checked + label::after {
+    transform: translateX(22px);
+    color: hsl(240, 78%, 98%);
+    color: hsl(234, 14%, 74%);
+    color: hsl(233, 13%, 49%);
+    color: hsl(232, 13%, 33%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
