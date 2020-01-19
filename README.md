@@ -10,7 +10,7 @@ Use this [link](https://marcossilvaxx.github.io/pricing-component-toggle/) to ac
 
 ## The challenge
 
-Below is the design of the challenge that I had to build as close as possible. *Obs: More of the design of the challenge in the 
+Below is the design of the challenge that I had to build as close as possible. *Obs: More of the challenge design in the design folder.*
 
 ![Design](https://raw.githubusercontent.com/marcossilvaxx/pricing-component-toggle/master/design/desktop-design-monthly.jpg)
 
