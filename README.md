@@ -6,7 +6,7 @@ A pricing component with a toggle button between annual and monthly value. This 
 
 ## Live demo
 
-Use this [link](https://marcossilvaxx.github.io/pricing-component-toggle/) to acess the live demo.
+Use this [link](https://marcossilvaxx.github.io/pricing-component-toggle/) to access the live demo.
 
 ## The challenge
 
