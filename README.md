@@ -1,6 +1,6 @@
 # pricing-component-toggle
 
-A pricing component with a toggle button between annual and monthly value. This is a [frontend challenge](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) for the [Frontend Mentor](frontendmentor.io) website.
+A pricing component with a toggle button between annual and monthly value. This is a [frontend challenge](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) for the [Frontend Mentor](https://frontendmentor.io) website.
 
 ![Demo](https://user-images.githubusercontent.com/20626761/72673522-75689300-3a4a-11ea-9238-5a4d3ce3f82f.gif)
 
